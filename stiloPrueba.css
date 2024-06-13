@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: sans-serif; */
+    /* border: 1px solid black; */
+}
+
+header {
+    min-height: 25vh;
+    height: auto;
+}
+
+.logo {
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.claseDeBackGround {
+    background-image: url(./Assets/imagenFondo.jpg);
+    position: absolute;
+    background-position: center;
+    width: 100%;
+    height: 25vh;
+    z-index: -1;
+    opacity: 0.3;
+    background-size: cover;
+}
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    color: rgb(240, 8, 8);
+    width: 100%;
+    background-color: black;
+    color: aliceblue;
+}
+
+nav {
+    position: absolute;
+    right: 10px;
+    top: 30px;
+}
+
+a {
+    font-size: 1.3rem;
+    font-family: none;
+    color: white;
+    margin: 5px;
+    background-color: rgb(135, 180, 92);
+    padding: 5px;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+}
+
+
+a:hover {
+    background-color: rgba(172, 125, 233, 0.993);
+    transform: scale(1.1);
+}
+
+a[href="#"] {
+    background-color: rgba(233, 231, 125, 0.993);
+}
+
+main {
+    min-height: 65vh;
+    height: auto;
+    background-color: black;
+}
+
+/* h2 {
+    text-align: center;
+    display: block;
+    background-color: rgb(131, 124, 124);
+} */
+
+.sombra {
+    font-size: 2em; /* Tamaño de fuente del h2 */
+    color: #333; /* Color del texto */
+    text-shadow: 2px 2px 5px rgb(250, 249, 249); /* Sombra del texto */
+    text-align: center;
+    display: block;
+    background-color: rgb(131, 124, 124);
+    /* margin: 0; */
+}
+
+.linkMail {
+    text-decoration: none;
+    background-color: white;
+    color: blue;
+    padding: 0;
+    border-radius: 0%;
+}
+
+p,h3{
+    font-size: 1.5rem;
+    color: white;
+}
+
+article {
+    width: 70%;
+    display: inline-block;
+    padding-left: 105px;
+    margin-top: 30px;
+}
+
+footer {
+    min-height: 10vh;
+    height: auto;
+    background-color: rgb(58, 56, 56);
+    color: aliceblue;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@import url(https://fonts.googleapis.com/css?family=Exo+2:200i);
+
+:root {
+    /* Base font size */
+    font-size: 10px;
+
+    /* Set neon color */
+    --neon-text-color: #f40;
+    --neon-border-color: #08f;
+}
+
+/* body {
+    font-family: "Exo 2", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+    min-height: 100vh;
+} */
+
+h1 {
+    font-size: 20px;
+    font-weight: 200;
+    font-style: italic;
+    color: #fff;
+    padding: 5px 0;
+    border: 2px solid #fff;
+    /* border-radius: 2rem; */
+    text-transform: uppercase;
+    animation: flicker 1.5s infinite alternate;
+}
+
+h1::-moz-selection {
+    background-color: var(--neon-border-color);
+    color: var(--neon-text-color);
+}
+
+h1::selection {
+    background-color: var(--neon-border-color);
+    color: var(--neon-text-color);
+}
+
+h1:focus {
+    outline: none;
+}
+
+/* Animate neon flicker */
+@keyframes flicker {
+
+    0%,
+    19%,
+    21%,
+    23%,
+    25%,
+    54%,
+    56%,
+    100% {
+        text-shadow: -0.2rem -0.2rem 1rem #fff, 0.2rem 0.2rem 1rem #fff,
+            0 0 2rem var(--neon-text-color), 0 0 4rem var(--neon-text-color),
+            0 0 6rem var(--neon-text-color), 0 0 8rem var(--neon-text-color),
+            0 0 10rem var(--neon-text-color);
+
+        box-shadow: 0 0 0.5rem #fff, inset 0 0 0.5rem #fff,
+            0 0 2rem var(--neon-border-color), inset 0 0 2rem var(--neon-border-color),
+            0 0 4rem var(--neon-border-color), inset 0 0 4rem var(--neon-border-color);
+    }
+
+    20%,
+    24%,
+    55% {
+        text-shadow: none;
+        box-shadow: none;
+    }
+}
