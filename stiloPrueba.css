@@ -16,6 +16,14 @@ header {
     display: inline-block;
 }
 
+.Divlogo{
+    height: 40%;
+    width: 15%;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 30px;
+}
+
 .claseDeBackGround {
     background-image: url(./Assets/imagenFondo.jpg);
     position: absolute;
@@ -102,7 +110,7 @@ article {
     width: 70%;
     display: inline-block;
     padding-left: 105px;
-    margin-top: 30px;
+    margin-top: 60px;
 }
 
 footer {
