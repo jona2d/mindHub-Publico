@@ -25,7 +25,7 @@ header {
 }
 
 .claseDeBackGround {
-    background-image: url(./Assets/imagenFondo.jpg);
+    background-image: url(../Assets/imagenFondo.jpg);
     position: absolute;
     background-position: center;
     width: 100%;
