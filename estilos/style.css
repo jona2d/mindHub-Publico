@@ -1,27 +1,25 @@
-
-*{
-    margin: 0;
+* {
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
-    outline: 1px solid red;
+    /* outline: 1px solid rgb(0, 0, 0); */
 }
 
-header{
+header {
     min-height: 25vh;
     height: auto;
     display: flex;
     justify-content: end;
     align-items: start;
-
 }
 
-.logo{
+.logo {
     display: inline-block;
     vertical-align: start;
     /* margin-top: 30px;   */
 }
 
-.Divlogo{
+.Divlogo {
     /* background-color: aquamarine; */
     height: 40%;
     width: 15%;
@@ -30,7 +28,7 @@ header{
     margin-top: 30px;
 }
 
-.claseDeBackGround{
+.claseDeBackGround {
     background-image: url(../Assets/imagenFondo.jpg);
     position: absolute;
     background-position: center;
@@ -41,42 +39,54 @@ header{
     background-size: cover;
 }
 
-
-h1{
-    text-align: center;
-    color: rgb(240, 8, 8);
-    width: 100%;;
+h1 {
+    /* text-align: center; */
+    width: 100%;
     background-color: black;
     color: aliceblue;
+    padding-left: 350px;
+    /* margin-left: 300px; */
+    
 }
 
-nav{
-    /* height: 40vh; */
-    /* background-color: aquamarine; */
-    /* position: absolute; */
+nav {
     right: 10px;
     top: 20px;
-    margin-top: -14px;;
+    margin-top: -14px;
 }
 
-a{
+a {
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(0, 0, 0);
     margin: 5px;
-    background-color:rgba(233, 231, 125, 0.993);
-    padding: 0px;
+    background-color: rgba(233, 125, 125, 0.993);
+    padding: 2px;
     text-decoration: none;
     transition: transform 0.3s ease;
     display: inline-block;
+    border-radius: 10px;
+    box-shadow: 1px 2px 2px 1px #00796b;
 }
-a:hover{
+
+a:hover {
     background-color: rgba(172, 125, 233, 0.993);
     transform: scale(1.2);
 }
 
-a[href="#"]{
+a[href="#"] {
     background-color: rgb(135, 180, 92);
-    }
+}
+
+footer{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+    min-height: 10vh;
+    height: auto;
+}
+
+
+    /* hasta aca copiar todo */
 
     main{
         min-height: 65vh;
@@ -117,7 +127,7 @@ article{
 footer{
     min-height: 10vh;
     height: auto;
-    background-color: rgb(58, 56, 56);
+    background-color: rgb(0, 0, 0);
     color: aliceblue;
     text-align: center;
 }
@@ -126,19 +136,7 @@ h3,p{
     margin-top: 10px;
 }
 
-/* .mainDeRules{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 5px;
-    justify-content: center;
-    align-content: start
-}
 
-.pDeRules{
-    width: 100%;
-    margin-top: 0px;
-    text-align: center;
-} */
 
 
 
