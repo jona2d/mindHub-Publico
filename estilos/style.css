@@ -116,12 +116,7 @@ h3, p {
     margin-top: 10px;
 }
 
-/* Media Queries */
-@media (max-width: 1024px) {
-    /* header {
-        flex-direction: column;
-        align-items: center;
-    }
+
 
     
 
@@ -130,12 +125,12 @@ h3, p {
     h1 {
         padding-left: 0;
         text-align: center;
-    } */
+    } 
 
     .Divlogo {
         margin-top: 10px;
     }
-}
+
 
 @media (max-width: 768px) {
 
