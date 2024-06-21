@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    /* outline: 2px solid rgb(0, 0, 0); */
+    outline: 2px solid rgb(0, 0, 0);
 }
 
 header {
@@ -147,21 +147,20 @@ fieldset {
     border-radius: 10px;
 }
 
-div {
-    /* background-color: rgb(92, 11, 205); */
-    display: flex;
-    flex-wrap: wrap;
-}
+
 
 
 .clasePrimerDivPrimerNombreYsegundo{
+    /* display: flex; */
     display: flex;
     justify-content: space-between;
     width: 100%;
+    /* gap: 10px; */
 }
 
 .contenidoPrimerDiv{
-    width: 33%;
+    display: inline-block;
+    width: 43%;
 }
 
 .adressQueOcupaEl100 {
@@ -227,9 +226,11 @@ label[for="grade"] {
 }
 
 .clasePrimerDivPrimerNombreYsegundo {
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin-bottom: 15px;
 }
 
 .clasePrimerDivPrimerNombreYsegundo label {
@@ -254,6 +255,10 @@ label[for="grade"] {
 .claseDeGradosEscolares {
     display: flex;
     flex-wrap: wrap;
+}
+
+.contenidoPrimerDiv input{
+    width: 100%;
 }
 
 /* Media Queries */
