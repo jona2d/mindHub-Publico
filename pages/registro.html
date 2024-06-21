@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="../Assets/icono.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../estilos/registro.css">
+    <title>registro</title>
+</head>
+
+<body>
+    <!-- <h1>Mighty Ducks Hockey League</h1> -->
+    <header>
+        <h1>Mighty Ducks Hockey League</h1>
+        <div class="claseDeBackGround">
+            <!-- ESTE ES EL DIV INVISIBLE DONDE SE ALOJA EL LOGO MEDIANTE URL -->
+        </div>
+
+        <nav>
+            <a href="../index.html" class="enlaces">Home</a>
+            <a href="./about.html" class="enlaces">About MDHL</a>
+            <a href="./contact.html" class="enlaces">contact</a>
+            <a href="./rules.html">Rules</a>
+            <a href="./gameInformation.html">Game Information</a>
+            <a href="#">Register</a>
+        </nav>
+
+    </header>
+
+    <main>
+        <section>
+            <h2>Registration Form</h2>
+            <form action="../show_data.html" method="get">
+                <fieldset>
+                    <legend>Personal data</legend>
+                    <div class="clasePrimerDivPrimerNombreYsegundo">
+
+                        <label class="contenidoPrimerDiv">Player First Name:
+                            <input type="text" name="name">
+                        </label>
+                        
+
+                        <label class="contenidoPrimerDiv">Last Name:                            
+                            <input type="text" name="lastname">
+                        </label>
+                        
+                    </div>
+
+                    <div class="adressQueOcupaEl100">
+                        <label for="adress">Street Adress:</label>
+                        <input type="text" name="streetAdress" id="adress">
+                    </div>
+
+                    <div class="claseCityYzipcode">
+
+                        <label>City:
+                            <input type="text" name="city">
+                        </label>
+
+                        <label>zipcode:
+                            <input type="text" name="zipcode">
+                        </label>
+
+                    </div>
+
+                    <div class="birthDateYgenero">
+                        <!-- date -->
+                        <label>Birth Date:
+                            <input type="date" name="Birthdate">
+                        </label>
+
+
+                        <!-- genero-sexo -->
+
+                        <div class="maleYfemaleJuntos">
+                            <label>Gender: Male
+                                <input type="radio" name="gender" value="male">
+                            </label>
+
+                            <label>Female
+                                <input type="radio" name="gender" value="female">
+                            </label>
+                        </div>
+                    </div>
+
+
+                    <!-- voy por aca -->
+
+                </fieldset>
+
+
+                <fieldset class="fielsetClasesEscolares">
+                    <div class="claseDeGradosEscolares">
+                        <label for="grade">Grade</label>
+
+                        <label>Pre-School:
+                            <input type="radio" name="grade" value="preschool">
+                        </label>
+
+                        <label>1ro:
+                            <input type="radio" name="grade" value="1ro">
+                        </label>
+
+                        <label>2do:
+                            <input type="radio" name="grade" value="2do">
+                        </label>
+
+                        <label>3ro:
+                            <input type="radio" name="grade" value="3ro">
+                        </label>
+
+                        <label>4to:
+                            <input type="radio" name="grade" value="4to">
+                        </label>
+                        <label>5to:
+                            <input type="radio" name="grade" value="5to">
+                        </label>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>wich elementary school do you live near?</legend>
+                    <br>
+                    <legend>Closest Schools:</legend>
+                    <div class="divContenedorEquipos">
+                        <div class="div1Equipos">
+                            <label>AJ Katzenmaier
+                                <input type="checkbox" name="Closest-schools" value="AJ Katzenmaier">
+                            </label>
+
+                            <label>Greenbay
+                                <input type="checkbox" name="Closest-schools" value="Greenbay">
+                            </label>
+
+                            <label>Howards A Yaeger
+                                <input type="checkbox" name="Closest-schools" value="Howards A Yaeger">
+                            </label>
+                        </div>
+
+                        <div class="div2Equipos">
+                            <label>Marjorie P hart
+                                <input type="checkbox" name="Closest-schools" value="Marjorie P hart">
+                            </label>
+
+                            <label>North elementary
+                                <input type="checkbox" name="Closest-schools" value="North elementary">
+                            </label>
+
+                            <label>South Elementary
+                                <input type="checkbox" name="Closest-schools" value="South Elementary">
+                            </label>
+                        </div>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>What position(s) do you normally play?</legend>
+
+                    <div>
+                        <label>Forward
+                            <input type="checkbox" name="position" value="Forward">
+                        </label>
+
+                        <label>Midfield
+                            <input type="checkbox" name="position" value="Defense">
+                    </div>
+
+                    <div>
+                        <label>Defense
+                            <input type="checkbox" name="position" value="Midfield">
+                        </label>
+
+                        <label>Goalkeeper
+                            <input type="checkbox" name="position" value="Goalkeeper">
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Uniform Size:</legend>
+                    <div class="ContenedorTalles">
+                        <div class="gripoDeTalles1">
+                            <label>Youth-Small
+                                <input type="radio" name="uniformSize" value="youth small">
+                            </label>
+
+                            <label>Youth-Medium
+                                <input type="radio" name="uniformSize" value="youth medium">
+                            </label>
+
+                            <label>Youth-Large
+                                <input type="radio" name="uniformSize" value="youth large">
+                            </label>
+
+
+                            <label>Small
+                                <input type="radio" name="uniformSize" value="small">
+                            </label>
+                        </div>
+
+                        <div class="gripoDeTalles2">
+                            <label>Medium
+                                <input type="radio" name="uniformSize" value="medium">
+                            </label>
+
+
+                            <label>Large
+                                <input type="radio" name="uniformSize" value="large">
+                            </label>
+
+
+                            <label>Extra-Large
+                                <input type="radio" name="uniformSize" value="extra large">
+                            </label>
+                        </div>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Permission to Play</legend>
+                    <p>|, the parent or guardian of the minor registrant, agree that the registrant and | will abide by
+                        all the
+                        rules of the Mighty Ducks Hockey League (MDHL). In recognizing the possibility of physical
+                        injury
+                        associated with hockey and in consideration for the “League” accepting the registrant for its
+                        hockey programs and activities, | hereby release, discharge, and/or otherwise indemnify MDHL,
+                        their employees and associated personnel and volunteers,including the facilities used for
+                        practices and games, against any claim by or on behalf of the registrant as a result of the
+                        registrant's participation in the programand/orbeing transported to or from MDHL sponsored
+                        activities,which transportation
+                        By signing below, | herebyagree andauthorizethe above.In addition, by signing below, lalso
+                        acknowledge that | have read the cancellation policy and agree to its terms.</p>
+
+                    <label>Parent/GuardianSignature:
+                        <input type="text" name="firma" value="firma" placeholder="firmaPlaceholder">
+                    </label>
+
+                    <label>Date:
+                        <input type="date" name="date" value="date">
+                    </label>
+                </fieldset>
+
+                <button>Submit</button>
+
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <h4>Todos los derechos reservados</h4>
+        <p>by: jonatan rivera</p>
+        <p>Contacto: <a href="mailto:correo@ejemplo.com">jona.2dd@gmail.com</a></p>
+    </footer>
+
+</body>
+
+</html>
