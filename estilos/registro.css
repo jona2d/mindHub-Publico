@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    outline: 2px solid rgb(0, 0, 0);
+    /* outline: 2px solid rgb(0, 0, 0); */
 }
 
 header {
@@ -115,10 +115,12 @@ section {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgb(214, 164, 164);
+    /* background-color: rgb(214, 164, 164); */
 }
 
 form {
+    margin-top: 20px;
+    margin-bottom: 40px;
     color: white;
     width: 85%;
     background-color: #00796bd7;
@@ -129,23 +131,37 @@ form {
     align-items: center;
     /* padding: 30px; */
     border-radius: 10px;
-    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
 
 fieldset {
-    background-color: rgba(206, 237, 169, 0.591);
+    /* background-color: rgba(206, 237, 169, 0.591); */
     width: 90%;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     gap: 30px;
     padding: 30px;
+    border-radius: 10px;
 }
 
 div {
-    background-color: rgb(92, 11, 205);
+    /* background-color: rgb(92, 11, 205); */
     display: flex;
     flex-wrap: wrap;
+}
+
+
+.clasePrimerDivPrimerNombreYsegundo{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.contenidoPrimerDiv{
+    width: 33%;
 }
 
 .adressQueOcupaEl100 {
@@ -265,12 +281,12 @@ label[for="grade"] {
         width: 25%;
     }
 
-    .claseCityYzipcode,
+    /* .claseCityYzipcode,
     .birthDateYgenero,
     .ContenedorTalles {
         flex-direction: column;
         align-items: flex-start;
-    }
+    } */
 
     .clasePrimerDivPrimerNombreYsegundo label,
     .claseCityYzipcode label,
@@ -309,7 +325,7 @@ label[for="grade"] {
     }
 
     .claseDeBackGround {
-        height: 15vh;
+        height: 100%
     }
 
     .Divlogo {
